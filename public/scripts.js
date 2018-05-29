@@ -60,7 +60,7 @@ document.getElementById("sayButton").onclick = function(){
 					pre.textContent="Sucess!"
 					pre.style.backgroundColor='green'
 					document.getElementById('postId').value =response ;
-					document.getElementById('postText').textContent ="" ;
+				document.getElementById('postText').value =""
 					 
 					
 					
